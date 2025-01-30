@@ -3,7 +3,7 @@ import * as S from "./HomePage.style";
 import closetRackImg from "/closet_rack.png";
 
 export default function HomePage() {
-  const [familyName, setFAmilyName] = useState("סלומון");
+  const [familyName] = useState("סלומון");
   const headerText = `משפחת ${familyName}`;
   return (
     <S.Container>
