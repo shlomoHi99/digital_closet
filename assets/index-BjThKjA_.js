@@ -59,4 +59,4 @@ Please change the parent <Route path="${A}"> to <Route path="${A==="/"?"*":`${A}
   display: flex;
   justify-content: space-between;
   height: 50px;
-`,ig="https://github.com/shlomoHi99/digital_closet/closet_rack.png";function ug(){const[l]=P.useState("סלומון"),o=`משפחת ${l}`;return _t.jsx(rg,{children:_t.jsxs(lg,{children:[_t.jsx("img",{src:ig,alt:""}),_t.jsx("span",{children:o})]})})}const og=()=>_t.jsx(Qm,{children:_t.jsx(km,{children:_t.jsx(Xo,{path:"/",children:_t.jsx(Xo,{path:"/",element:_t.jsx(ug,{})})})})});Th.createRoot(document.getElementById("root")).render(_t.jsx(P.StrictMode,{children:_t.jsx(og,{})}));
+`,ig="/digital_closet/closet_rack.png";function ug(){const[l]=P.useState("סלומון"),o=`משפחת ${l}`;return _t.jsx(rg,{children:_t.jsxs(lg,{children:[_t.jsx("img",{src:ig,alt:""}),_t.jsx("span",{children:o})]})})}const og=()=>_t.jsx(Qm,{children:_t.jsx(km,{children:_t.jsx(Xo,{path:"/",children:_t.jsx(Xo,{path:"/",element:_t.jsx(ug,{})})})})});Th.createRoot(document.getElementById("root")).render(_t.jsx(P.StrictMode,{children:_t.jsx(og,{})}));
